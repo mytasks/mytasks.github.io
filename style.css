@@ -2,7 +2,7 @@
 
 div {
   padding: 10px;
-  background-color: #222222;
+  background-color: #888888;
 }
 
 p:nth-of-type(1) {
@@ -11,5 +11,5 @@ p:nth-of-type(1) {
 
 #wrapper {
   width: 60%;
-  background-color: #666666;
+  background-color: #9F9F9F;
 }
