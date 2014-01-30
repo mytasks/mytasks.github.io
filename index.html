@@ -75,17 +75,6 @@ $( "span:contains('#MathCW')" ).css( "color", "#369E19" );
 $( "span:contains('#Sci')" ).css( "color", "#EB9721" );
 $( "span:contains('#Lat')" ).css( "color", "#8A8A8A" );
 
-jQuery.fn.highlight = function (str) {
-    var regex = new RegExp(str, "g");
-    return this.each(function () {
-        this.innerHTML = this.innerHTML.replace(regex, function(matched) {
-            return "<b>" + matched + "</b>";
-        });
-    });
-};
-
-var dt_to = $.datepicker.formatDate('yy/mm/dd', new Date());
-
 </script>
 
 </body>
