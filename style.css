@@ -7,6 +7,7 @@ div {
 /* specific date selector */
 p:nth-of-type(1) {
   color: #888888;
+  font-size: 0.7em;
 }
 
 #wrapper {
