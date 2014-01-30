@@ -4,17 +4,23 @@
   <title>MyTasks v0.0.1 Alpha</title>
   <link rel="stylesheet" type="text/css" href="style.css">
   <link href='http://fonts.googleapis.com/css?family=Alef' rel='stylesheet' type='text/css'>
+  <script src="//code.jquery.com/jquery-1.10.2.js"></script>
 </head>
 <body>
 <div id="wrapper">
   <div>
-    <span>1/30/14</span>&nbsp;<span>#HumCadigan</span><br />
-    <span>Blah.</span>
-  </div>
-  <div>
     <span>1/29/14</span>&nbsp;<span>#HumVaughan</span><br />
     <span>Study for your grammar test.  Make any necessary edits to your short story.</span>
   </div>
+  <div>
+    <span>1/30/14</span>&nbsp;<span>#HumCadigan</span><br />
+    <span>Blah.</span>
+  </div>
 </div>
+
+<script>
+$( "span:contains('#Hum')" ).css( "color", "#4B62E3" );
+</script>
+
 </body>
 </html>
