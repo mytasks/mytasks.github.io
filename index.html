@@ -76,8 +76,6 @@ $( "span:contains('#MathCW')" ).css( "color", "#369E19" );
 $( "span:contains('#Sci')" ).css( "color", "#EB9721" );
 $( "span:contains('#Lat')" ).css( "color", "#8A8A8A" );
 
-$(document).ready(function() {
-
     $('form')
     .delegate(':checkbox','change',function() {
 
@@ -90,7 +88,6 @@ $(document).ready(function() {
 
         if(localStorage.getItem('checkbox' + index) === 'true') $(this).attr('checked',true);
     });
-});
 
 
 </script>
