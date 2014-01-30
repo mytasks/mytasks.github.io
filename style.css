@@ -5,7 +5,7 @@ div {
   background-color: #222222;
 }
 
-div:nth-of-type(1) {
+p:nth-of-type(1) {
   color: #222222;
 }
 
