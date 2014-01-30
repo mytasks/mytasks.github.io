@@ -3,6 +3,7 @@ div {
   padding: 10px;
   background-color: #EEEEEE;
   font-family: 'Alef', 'sans-serif';
+  margin: 0px auto;
 }
 
 /* specific date selector */
