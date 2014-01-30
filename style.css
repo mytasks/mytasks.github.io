@@ -11,6 +11,7 @@ span:nth-of-type(1) {
 }
 
 #wrapper {
-  width: 60%;
+  width: 45%;
   background-color: #DDDDDD;
+  margin: 0px auto;
 }
