@@ -3,13 +3,16 @@ div {
   padding: 10px;
   background-color: #EEEEEE;
   font-family: 'Alef', 'sans-serif';
-  margin: 0px auto;
 }
 
 /* specific date selector */
 span:nth-of-type(1) {
   color: #888888;
   font-size: 0.7em;
+}
+
+span {
+  margin: 0px auto;
 }
 
 #wrapper {
