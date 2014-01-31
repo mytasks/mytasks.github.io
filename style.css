@@ -26,3 +26,7 @@ span:nth-of-type(3) {
   background-color: #DDDDDD;
   margin: 0px auto;
 }
+
+a {
+  text-decoration: none;
+}
