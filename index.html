@@ -21,6 +21,14 @@ TODO:
   <h1 style="margin: 0px auto">Work in Progress. More will be added soon!</h1>
   
   <div>
+    <span>2/4/14</span>&nbsp;<span>#HumVaughan</span><br />
+    <span><a href="https://docs.google.com/a/sageschool.org/document/d/1pkiSGcBACSVqm_8MHqbAs5jn59oSs-5zoSa3wY1VC50/edit">HwDoc</a></span>
+  </div>
+  <div>
+    <span>2/3/14</span>&nbsp;<span>#MathKramer</span><br />
+    <span>Practice 13.2 (all)</span>
+  </div>
+  <div>
     <span>1/31/14</span>&nbsp;<span>#Hum&nbsp;</span><br />
     <span>Book Card!</span>
   </div>
@@ -30,7 +38,7 @@ TODO:
   </div>
   <div>
     <span>1/31/14</span>&nbsp;<span>#MathKramer</span><br />
-    <span>Practice 13.1(all)</span>
+    <span>Practice 13.1 (all)</span>
   </div>
   <div>
     <span>1/31/14</span>&nbsp;<span>#HumVaughan</span><br />
@@ -80,20 +88,6 @@ $( "span:contains('#MathKramer')" ).css( "color", "#C321EB" );
 $( "span:contains('#MathCW')" ).css( "color", "#369E19" );
 $( "span:contains('#Sci')" ).css( "color", "#EB9721" );
 $( "span:contains('#Lat')" ).css( "color", "#8A8A8A" );
-
-    $('form')
-    .delegate(':checkbox','change',function() {
-
-        var $this = $(this);
-
-        localStorage.setItem('checkbox' + $this.index('form :checkbox'),$this.attr('checked').toString());
-    })
-    .find(':checkbox')
-    .each(function(index) {
-
-        if(localStorage.getItem('checkbox' + index) === 'true') $(this).attr('checked',true);
-    });
-
 
 </script>
 
