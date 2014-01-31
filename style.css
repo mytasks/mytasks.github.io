@@ -27,6 +27,6 @@ span:nth-of-type(3) {
   margin: 0px auto;
 }
 
-.l {
+a:link {
   text-decoration: none;
 }
